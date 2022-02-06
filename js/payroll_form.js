@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
+    
     const name = document.querySelector('#name');
     const nameError = document.querySelector('.text-error');
     name.addEventListener('input', function () {
