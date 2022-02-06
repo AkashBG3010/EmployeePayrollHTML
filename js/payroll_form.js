@@ -1,13 +1,4 @@
 class EmployeePayrollData {
-    id;
-    name;
-    profileImage;
-    department;
-    salary;
-    gender;
-    startDate;
-    notes;
-
 
     constructor(...params) {
         this.name = params[0];
@@ -42,10 +33,7 @@ class EmployeePayrollData {
 
     get gender() {return this._gender;}
     set gender(gender) {
-        let genderRegex = RegExp('^[m|M|male|Male|f|F|female|Female]$');
-        if (genderRegex.test(gender))
         this._gender = gender;
-        else throw 'Gender is incorrect!';
     }
 
     get department() {return this._department;}
@@ -125,6 +113,7 @@ function save() {
         console.error(e);
     }
 }
+
 const salary = document.querySelector('#salary');
 const output = document.querySelector('.salary-output');
 output.textContent = salary.value;
