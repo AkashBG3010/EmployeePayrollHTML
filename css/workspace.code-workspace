@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\JavaScript"
+		},
+		{
+			"path": "..\\..\\HTML"
+		},
+		{
+			"path": "..\\..\\EmployeeWage"
+		},
+		{
+			"path": "..\\..\\EmployeePayrollDataJS"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}
